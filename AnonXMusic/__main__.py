@@ -12,6 +12,8 @@ from AnonXMusic.plugins import ALL_MODULES
 from AnonXMusic.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
+from app import keep_alive
+keep_alive()
 
 async def init():
     if (
